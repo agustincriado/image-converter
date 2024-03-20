@@ -1,0 +1,18 @@
+{
+  "name": "image-converter",
+  "version": "1.0.0",
+  "description": "A tool to convert, resize and compress images for the web",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agustin Criado",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
