@@ -59,7 +59,7 @@ const readFiles = async () => {
   })
   const bufferImages = await Promise.all(bufferPromise)
   const filteredBuffers = bufferImages.filter(value => value !== null)
-  convertImages([...filteredBuffers], 90, downloadsDIR)
+  convertImages([...filteredBuffers], 75, downloadsDIR)
 }
 
 readFiles()
